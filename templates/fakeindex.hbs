@@ -16,6 +16,8 @@
   <script src="js/navbar-ontop.js"></script>
   <!-- Script: Animated entrance -->
   <script src="js/animate-in.js"></script>
+  <!-- IMPORTED -->
+  <link rel="manifest" href="/manifest.json" /> {{#if production}}
 </head>
 
 <body class="text-center">
@@ -42,7 +44,7 @@
     </div>
   </nav>
   <!-- Cover -->
-  <div class="d-flex align-items-center py-5 cover section-fade-in-out" style="background-image: url('images/Sagres.jpg');">
+  <div class="d-flex align-items-center py-5 cover section-fade-in-out" style="background-image: url('../../Pictures/Steemit Artwork IMG/Sagres.jpg');">
     <div class="container">
       <div class="row">
         <div class="col-12 mt-5">
@@ -130,13 +132,13 @@
       </div>
       <div class="row">
         <div class="col-md-3 col-6">
-          <img class="center-block img-fluid d-block mx-auto" src="images/ptbot.png"> </div>
+          <img class="center-block img-fluid d-block mx-auto" src="../../Pictures/Steemit Artwork IMG/ptbot.png"> </div>
         <div class="col-md-3 col-6">
-          <img class="center-block img-fluid d-block" src="images/Steemit-big.png"> </div>
+          <img class="center-block img-fluid d-block" src="../../Pictures/Steemit Artwork IMG/Steemit-big.png"> </div>
         <div class="col-md-3 col-6">
-          <img class="center-block img-fluid d-block" src="images/favicon.png"> </div>
+          <img class="center-block img-fluid d-block" src="../../Pictures/Steemit Artwork IMG/favicon.png"> </div>
         <div class="col-md-3 col-6">
-          <img class="center-block img-fluid d-block" src="images/as leituras do warnas.png"> </div>
+          <img class="center-block img-fluid d-block" src="../../Pictures/Steemit Artwork IMG/as leituras do warnas.png"> </div>
       </div>
     </div>
   </div>
@@ -211,6 +213,9 @@
   <!-- Script: Smooth scrolling between anchors in a same page -->
   <script src="js/smooth-scroll.js"></script>
   
+  <!-- IMPORTED -->
+  <div id="app">{{{html}}}</div>
+  {{{scripts}}}
 </body>
 
 </html>
