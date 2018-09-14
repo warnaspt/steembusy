@@ -16,6 +16,8 @@
   <script src="js/navbar-ontop.js"></script>
   <!-- Script: Animated entrance -->
   <script src="js/animate-in.js"></script>
+  <!-- IMPORTED -->
+  <link rel="manifest" href="/manifest.json" /> {{#if production}}
 </head>
 
 <body class="text-center">
@@ -211,6 +213,9 @@
   <!-- Script: Smooth scrolling between anchors in a same page -->
   <script src="js/smooth-scroll.js"></script>
   
+  <!-- IMPORTED -->
+  <div id="app">{{{html}}}</div>
+  {{{scripts}}}
 </body>
 
 </html>
