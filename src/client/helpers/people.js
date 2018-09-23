@@ -25,5 +25,6 @@ export default [
   'zpedro',
   'myfreebtc',
   'munhenhos',
+  'trincowski',
   'maryfeijo15',
 ];
