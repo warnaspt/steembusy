@@ -110,14 +110,6 @@ export default class RightSidebar extends React.Component {
           />
         </Switch>
         {showPostRecommendation && <PostRecommendation isAuthFetching={isAuthFetching} />}
-      <center> <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:inline-block;width:160px;height:600px"
-     data-ad-client="ca-pub-4997797903404734"
-     data-ad-slot="1700092429"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script></center>
 	  </div>
     );
   }
