@@ -110,7 +110,8 @@ export default class RightSidebar extends React.Component {
           />
         </Switch>
         {showPostRecommendation && <PostRecommendation isAuthFetching={isAuthFetching} />}
-      </div>
+      Patrocinadores 
+	  </div>
     );
   }
 }
