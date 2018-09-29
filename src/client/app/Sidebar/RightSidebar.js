@@ -19,7 +19,6 @@ import Loading from '../../components/Icon/Loading';
 import UserActivitySearch from '../../activity/UserActivitySearch';
 import WalletSidebar from '../../components/Sidebar/WalletSidebar';
 import FeedSidebar from '../../components/Sidebar/FeedSidebar';
-import telegram from '../../app/Sidebar/telegram.js';
 
 @withRouter
 @connect(
